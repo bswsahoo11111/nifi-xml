@@ -1,0 +1,2022 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description></description>
+  <groupId>faf788c5-015a-1000-f344-de24ceb9d7e7</groupId>
+  <name>CDC_Replication</name>
+  <snippet>
+    <connections>
+      <id>d21bc8ee-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d21bbe84-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d2ff5446-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2ff3dee-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>begin</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d2ffba41-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2ff5a58-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>commit</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d30d3b96-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>eca7d36a-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>schema change</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d30ee5e0-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2ff3dee-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d30f3e6c-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2ff5a58-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d311e7e5-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d3130a72-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <prioritizers>org.apache.nifi.prioritizer.PriorityAttributePrioritizer</prioritizers>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>d3132b5e-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d311d75d-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d3130a72-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>ec8df056-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbbffda6-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30c1bbc-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>ec8e459f-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>sql</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>ec8ddd6c-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>eca23ae2-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30c1bbc-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>matched</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>eca06560-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>eca59de7-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>eca06560-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>delete</selectedRelationships>
+      <selectedRelationships>insert</selectedRelationships>
+      <selectedRelationships>update</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>eca8444e-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>matched</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>eca7d36a-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fbc041d6-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>ec8ddd6c-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>insert</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbbffda6-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fbc098bd-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0555b-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>update</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbbffda6-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fbc0afbe-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>sql</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0555b-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fbc0eaa6-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0c003-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>delete</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbbffda6-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fbc12d44-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d30ed32e-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>sql</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0c003-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fcf0bd17-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fcf0f3e8-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>ec8ddd6c-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fcf0d267-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fcf0f3e8-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0555b-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fcf0e541-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fcf0f3e8-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>failure</selectedRelationships>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fbc0c003-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>fcf119e7-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>d311d75d-015a-1000-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <source>
+        <groupId>faf788c5-015a-1000-0000-000000000000</groupId>
+        <id>fcf0f3e8-015a-1000-0000-000000000000</id>
+        <type>FUNNEL</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <controllerServices>
+      <id>ba141911-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Server Hostname</key>
+          <value>
+            <name>Server Hostname</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Server Port</key>
+          <value>
+            <name>Server Port</name>
+          </value>
+        </entry>
+        <entry>
+          <key>SSL Context Service</key>
+          <value>
+            <identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+            <name>SSL Context Service</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Communications Timeout</key>
+          <value>
+            <name>Communications Timeout</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>DistributedMapCacheClientService</name>
+      <properties>
+        <entry>
+          <key>Server Hostname</key>
+          <value>localhost</value>
+        </entry>
+        <entry>
+          <key>Server Port</key>
+          <value>4557</value>
+        </entry>
+        <entry>
+          <key>SSL Context Service</key>
+        </entry>
+        <entry>
+          <key>Communications Timeout</key>
+          <value>30 secs</value>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.distributed.cache.client.DistributedMapCacheClientService</type>
+    </controllerServices>
+    <controllerServices>
+      <id>d3095cea-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>
+            <name>Database Connection URL</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>
+            <name>Database Driver Class Name</name>
+          </value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+          <value>
+            <name>database-driver-locations</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>
+            <name>Database User</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Password</key>
+          <value>
+            <name>Password</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>
+            <name>Max Wait Time</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>
+            <name>Max Total Connections</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+          <value>
+            <name>Validation-query</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>MySQL CDC Backup</name>
+      <properties>
+        <entry>
+          <key>Database Connection URL</key>
+          <value>jdbc:mysql://192.168.99.100:32768/cdc_backup</value>
+        </entry>
+        <entry>
+          <key>Database Driver Class Name</key>
+          <value>com.mysql.jdbc.Driver</value>
+        </entry>
+        <entry>
+          <key>database-driver-locations</key>
+          <value>file:///Users/mburgess/jdbc_drivers/mysql-connector-java-5.1.38-bin.jar</value>
+        </entry>
+        <entry>
+          <key>Database User</key>
+          <value>root</value>
+        </entry>
+        <entry>
+          <key>Password</key>
+        </entry>
+        <entry>
+          <key>Max Wait Time</key>
+          <value>500 millis</value>
+        </entry>
+        <entry>
+          <key>Max Total Connections</key>
+          <value>8</value>
+        </entry>
+        <entry>
+          <key>Validation-query</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
+    </controllerServices>
+    <funnels>
+      <id>d30ed32e-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1386.873438296021</x>
+        <y>692.1651199508015</y>
+      </position>
+    </funnels>
+    <funnels>
+      <id>fcf0f3e8-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1934.2057900162977</x>
+        <y>658.9592282837363</y>
+      </position>
+    </funnels>
+    <processors>
+      <id>d21bbe84-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>94.97420536290088</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>get-cdc-mysql-hosts</key>
+            <value>
+              <name>get-cdc-mysql-hosts</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-driver-class</key>
+            <value>
+              <name>get-cdc-mysql-driver-class</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-driver-locations</key>
+            <value>
+              <name>get-cdc-mysql-driver-locations</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Username</key>
+            <value>
+              <name>Username</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Password</key>
+            <value>
+              <name>Password</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-db-name-pattern</key>
+            <value>
+              <name>get-cdc-mysql-db-name-pattern</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-name-pattern</key>
+            <value>
+              <name>get-cdc-mysql-name-pattern</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-max-wait-time</key>
+            <value>
+              <name>get-cdc-mysql-max-wait-time</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-dist-map-cache-client</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.distributed.cache.client.DistributedMapCacheClient</identifiesControllerService>
+              <name>get-cdc-mysql-dist-map-cache-client</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-retrieve-all-records</key>
+            <value>
+              <name>get-cdc-mysql-retrieve-all-records</name>
+            </value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-init-seq-id</key>
+            <value>
+              <name>get-cdc-mysql-init-seq-id</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>get-cdc-mysql-hosts</key>
+            <value>192.168.99.100:32768</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-driver-class</key>
+            <value>com.mysql.jdbc.Driver</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-driver-locations</key>
+            <value>/Users/mburgess/jdbc_drivers/mysql-connector-java-5.1.38-bin.jar</value>
+          </entry>
+          <entry>
+            <key>Username</key>
+            <value>root</value>
+          </entry>
+          <entry>
+            <key>Password</key>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-db-name-pattern</key>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-name-pattern</key>
+            <value>j1</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-max-wait-time</key>
+            <value>4 seconds</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-dist-map-cache-client</key>
+            <value>ba141911-015a-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-retrieve-all-records</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>get-cdc-mysql-init-seq-id</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>200 millis</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>GetChangeDataCaptureMySQL</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style>
+        <entry>
+          <key>background-color</key>
+          <value>#71f771</value>
+        </entry>
+      </style>
+      <type>org.apache.nifi.processors.standard.GetChangeDataCaptureMySQL</type>
+    </processors>
+    <processors>
+      <id>d2fd3d9e-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.8199107972299089</x>
+        <y>414.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>
+              <name>Routing Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>begin</key>
+            <value>
+              <name>begin</name>
+            </value>
+          </entry>
+          <entry>
+            <key>commit</key>
+            <value>
+              <name>commit</name>
+            </value>
+          </entry>
+          <entry>
+            <key>delete</key>
+            <value>
+              <name>delete</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insert</key>
+            <value>
+              <name>insert</name>
+            </value>
+          </entry>
+          <entry>
+            <key>schema change</key>
+            <value>
+              <name>schema change</name>
+            </value>
+          </entry>
+          <entry>
+            <key>update</key>
+            <value>
+              <name>update</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>Route to Property name</value>
+          </entry>
+          <entry>
+            <key>begin</key>
+            <value>${cdc.event.type:equals('begin')}</value>
+          </entry>
+          <entry>
+            <key>commit</key>
+            <value>${cdc.event.type:equals('commit')}</value>
+          </entry>
+          <entry>
+            <key>delete</key>
+            <value>${cdc.event.type:equals('delete')}</value>
+          </entry>
+          <entry>
+            <key>insert</key>
+            <value>${cdc.event.type:equals('write')}</value>
+          </entry>
+          <entry>
+            <key>schema change</key>
+            <value>${cdc.event.type:equals('schema_change')}</value>
+          </entry>
+          <entry>
+            <key>update</key>
+            <value>${cdc.event.type:equals('update')}</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>RouteOnAttribute</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>begin</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>commit</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>delete</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>insert</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>schema change</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>update</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+    </processors>
+    <processors>
+      <id>d2ff3dee-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>554.9789451199856</x>
+        <y>645.8972561184496</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Regular Expression</key>
+            <value>
+              <name>Regular Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>
+              <name>Replacement Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>
+              <name>Maximum Buffer Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>
+              <name>Replacement Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>
+              <name>Evaluation Mode</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Regular Expression</key>
+            <value>(?s)(^.*$)</value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>BEGIN</value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>1 MB</value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>Regex Replace</value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>Entire text</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Replace With BEGIN</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ReplaceText</type>
+    </processors>
+    <processors>
+      <id>d2ff5a58-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>559.3269065457669</x>
+        <y>454.99497340360585</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Regular Expression</key>
+            <value>
+              <name>Regular Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>
+              <name>Replacement Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>
+              <name>Character Set</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>
+              <name>Maximum Buffer Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>
+              <name>Replacement Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>
+              <name>Evaluation Mode</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Regular Expression</key>
+            <value>(?s)(^.*$)</value>
+          </entry>
+          <entry>
+            <key>Replacement Value</key>
+            <value>COMMIT</value>
+          </entry>
+          <entry>
+            <key>Character Set</key>
+            <value>UTF-8</value>
+          </entry>
+          <entry>
+            <key>Maximum Buffer Size</key>
+            <value>1 MB</value>
+          </entry>
+          <entry>
+            <key>Replacement Strategy</key>
+            <value>Regex Replace</value>
+          </entry>
+          <entry>
+            <key>Evaluation Mode</key>
+            <value>Entire text</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Replace With COMMIT</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ReplaceText</type>
+    </processors>
+    <processors>
+      <id>d30c1bbc-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>981.5541156734657</x>
+        <y>2.0024317251973116</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>jolt-transform</key>
+            <value>
+              <name>jolt-transform</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jolt-custom-class</key>
+            <value>
+              <name>jolt-custom-class</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jolt-custom-modules</key>
+            <value>
+              <name>jolt-custom-modules</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jolt-spec</key>
+            <value>
+              <name>jolt-spec</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>jolt-transform</key>
+            <value>jolt-transform-chain</value>
+          </entry>
+          <entry>
+            <key>jolt-custom-class</key>
+          </entry>
+          <entry>
+            <key>jolt-custom-modules</key>
+          </entry>
+          <entry>
+            <key>jolt-spec</key>
+            <value>[
+  {
+    "operation": "shift",
+    "spec": {
+      "columns": {
+        "*": {
+          "@(value)": "[#1].@(1,name)"
+        }
+      }
+    }
+  }
+]</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Transform to Flat JSON</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.JoltTransformJSON</type>
+    </processors>
+    <processors>
+      <id>d311d75d-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1794.6361226471308</x>
+        <y>805.068554079779</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Log Level</key>
+            <value>
+              <name>Log Level</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Log Payload</key>
+            <value>
+              <name>Log Payload</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Attributes to Log</key>
+            <value>
+              <name>Attributes to Log</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Attributes to Ignore</key>
+            <value>
+              <name>Attributes to Ignore</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Log prefix</key>
+            <value>
+              <name>Log prefix</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Log Level</key>
+            <value>info</value>
+          </entry>
+          <entry>
+            <key>Log Payload</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>Attributes to Log</key>
+          </entry>
+          <entry>
+            <key>Attributes to Ignore</key>
+          </entry>
+          <entry>
+            <key>Log prefix</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>LogAttribute</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.LogAttribute</type>
+    </processors>
+    <processors>
+      <id>d3130a72-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1236.998705329768</x>
+        <y>806.5159878169598</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Delete Attributes Expression</key>
+            <value>
+              <name>Delete Attributes Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>
+              <name>Store State</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+            <value>
+              <name>Stateful Variables Initial Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>priority</key>
+            <value>
+              <name>priority</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Delete Attributes Expression</key>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>Do not store state</value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+          </entry>
+          <entry>
+            <key>priority</key>
+            <value>${cdc.sequence.id}</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Set Priority attribute</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+    </processors>
+    <processors>
+      <id>ec8ddd6c-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1007.8860662491472</x>
+        <y>248.69908718598026</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>
+              <name>Statement Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+            <value>
+              <name>Catalog Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>
+              <name>Schema Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>
+              <name>Translate Field Names</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>
+              <name>Unmatched Field Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>
+              <name>Unmatched Column Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+            <value>
+              <name>Update Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>
+              <name>jts-quoted-identifiers</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>
+              <name>jts-quoted-table-identifiers</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>d3095cea-015a-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>INSERT</value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>${tableName}</value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>Ignore Unmatched Fields</value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>Ignore Unmatched Columns</value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Generate INSERT</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>sql</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
+    </processors>
+    <processors>
+      <id>eca06560-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>413.92256350531557</x>
+        <y>1.9993181814584204</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Destination</key>
+            <value>
+              <name>Destination</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>
+              <name>Return Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>
+              <name>Path Not Found Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+          <entry>
+            <key>tableName</key>
+            <value>
+              <name>tableName</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Destination</key>
+            <value>flowfile-attribute</value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>auto-detect</value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>ignore</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+          <entry>
+            <key>tableName</key>
+            <value>$.table_name</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Get Table Name</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>matched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+    </processors>
+    <processors>
+      <id>eca7d36a-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>564.692962106576</x>
+        <y>260.05247386486235</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Destination</key>
+            <value>
+              <name>Destination</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>
+              <name>Return Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>
+              <name>Path Not Found Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+          <entry>
+            <key>x</key>
+            <value>
+              <name>x</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Destination</key>
+            <value>flowfile-content</value>
+          </entry>
+          <entry>
+            <key>Return Type</key>
+            <value>scalar</value>
+          </entry>
+          <entry>
+            <key>Path Not Found Behavior</key>
+            <value>ignore</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+          <entry>
+            <key>x</key>
+            <value>$.query</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Replace with SQL</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>matched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.EvaluateJsonPath</type>
+    </processors>
+    <processors>
+      <id>fbbffda6-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1554.81991079723</x>
+        <y>0.0</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>
+              <name>Routing Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>delete</key>
+            <value>
+              <name>delete</name>
+            </value>
+          </entry>
+          <entry>
+            <key>insert</key>
+            <value>
+              <name>insert</name>
+            </value>
+          </entry>
+          <entry>
+            <key>update</key>
+            <value>
+              <name>update</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Routing Strategy</key>
+            <value>Route to Property name</value>
+          </entry>
+          <entry>
+            <key>delete</key>
+            <value>${cdc.event.type:equals('delete')}</value>
+          </entry>
+          <entry>
+            <key>insert</key>
+            <value>${cdc.event.type:equals('write')}</value>
+          </entry>
+          <entry>
+            <key>update</key>
+            <value>${cdc.event.type:equals('update')}</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Route To SQL Generator</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>delete</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>insert</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>unmatched</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>update</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.RouteOnAttribute</type>
+    </processors>
+    <processors>
+      <id>fbc0555b-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1412.3481023819595</x>
+        <y>248.2600307894959</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>
+              <name>Statement Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+            <value>
+              <name>Catalog Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>
+              <name>Schema Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>
+              <name>Translate Field Names</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>
+              <name>Unmatched Field Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>
+              <name>Unmatched Column Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+            <value>
+              <name>Update Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>
+              <name>jts-quoted-identifiers</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>
+              <name>jts-quoted-table-identifiers</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>d3095cea-015a-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>UPDATE</value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>${tableName}</value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>Ignore Unmatched Fields</value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>Ignore Unmatched Columns</value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Generate UPDATE</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>sql</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
+    </processors>
+    <processors>
+      <id>fbc0c003-015a-1000-0000-000000000000</id>
+      <parentGroupId>faf788c5-015a-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>1824.0209539444595</x>
+        <y>249.896780057074</y>
+      </position>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+              <name>JDBC Connection Pool</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>
+              <name>Statement Type</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+            <value>
+              <name>Catalog Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+            <value>
+              <name>Schema Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>
+              <name>Translate Field Names</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>
+              <name>Unmatched Field Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>
+              <name>Unmatched Column Behavior</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+            <value>
+              <name>Update Keys</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>
+              <name>jts-quoted-identifiers</name>
+            </value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>
+              <name>jts-quoted-table-identifiers</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JDBC Connection Pool</key>
+            <value>d3095cea-015a-1000-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Statement Type</key>
+            <value>DELETE</value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>${tableName}</value>
+          </entry>
+          <entry>
+            <key>Catalog Name</key>
+          </entry>
+          <entry>
+            <key>Schema Name</key>
+          </entry>
+          <entry>
+            <key>Translate Field Names</key>
+            <value>true</value>
+          </entry>
+          <entry>
+            <key>Unmatched Field Behavior</key>
+            <value>Ignore Unmatched Fields</value>
+          </entry>
+          <entry>
+            <key>Unmatched Column Behavior</key>
+            <value>Ignore Unmatched Columns</value>
+          </entry>
+          <entry>
+            <key>Update Keys</key>
+          </entry>
+          <entry>
+            <key>jts-quoted-identifiers</key>
+            <value>false</value>
+          </entry>
+          <entry>
+            <key>jts-quoted-table-identifiers</key>
+            <value>false</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>Generate DELETE</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>sql</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.ConvertJSONToSQL</type>
+    </processors>
+  </snippet>
+  <timestamp>03/23/2017 18:01:41 EDT</timestamp>
+</template>
